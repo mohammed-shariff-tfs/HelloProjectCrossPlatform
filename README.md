@@ -5,7 +5,7 @@ A simple C++ project configured with CMake.
 ## Project Structure
 
 ```
-MyCppProject/
+HelloProjectCrossPlatform/
 ├── include/           # Header files
 ├── src/               # Source files (*.cpp)
 ├── CMakeLists.txt     # CMake build configuration
