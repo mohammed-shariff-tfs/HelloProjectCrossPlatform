@@ -1,0 +1,14 @@
+mkdir build
+cd build
+cmake ..
+cmake --build .
+./YourExecutableFile
+cmake --build . --target clean # For cleaning
+
+# Windows Debug
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
+cmake --build build --config Debug
+
+#Windows Release
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build --config Release
