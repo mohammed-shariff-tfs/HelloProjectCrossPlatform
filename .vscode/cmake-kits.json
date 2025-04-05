@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Clang MacOS",
+    "compilers": {
+      "C": "/usr/bin/clang",
+      "CXX": "/usr/bin/clang++"
+    },
+    "environmentVariables": {},
+    "preferredGenerator": {
+      "name": "Ninja"
+    }
+  },
+  {
+    "name": "MSVC x64",
+    "visualStudio": "latest",
+    "visualStudioArchitecture": "x64",
+    "preferredGenerator": {
+      "name": "NMake Makefiles"
+    }
+  }
+]
